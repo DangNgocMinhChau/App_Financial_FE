@@ -1,2 +1,9 @@
-@import "mixins";
-@import "variables";
+@import 'variables';
+
+.test {
+    font-size: 1rem;
+    color: blue;
+}
+h1 {
+    color: $red-color;
+}
